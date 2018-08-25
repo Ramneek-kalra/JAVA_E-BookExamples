@@ -12,9 +12,11 @@ public class booleanDatatype {
         //Checking if a < b or not using Conditional
         //Statements
         if(a <= b){
-            System.out.println("A is less than B");
+            statusCheck = true;
+            System.out.println("A is less than B with value: "+statusCheck);
         }else{
-            System.out.println("A is not less than B");
+            statusCheck = false;
+            System.out.println("A is not less than B with value: "+statusCheck);
         }
     }
 }
